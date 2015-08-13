@@ -1,0 +1,93 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+html, body {
+  width: 100%;
+  margin: 0;
+  font-family: "helvetica neue", helvetica, tahoma;
+  font-weight: 100
+}
+
+h1{
+  font-family: "helvetica neue", helvetica, tahoma;
+  font-weight: 100;
+}
+h5{
+  font-family: "helvetica neue", helvetica, tahoma;
+  font-weight: 100;
+}
+
+.headshot img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+
+}
+
+.icons:hover {
+  border-radius: 5px;
+  background-color: white;
+}
+
+.btn-large{
+  background-color: rgba(227,88,94,.9);
+}
+.btn-large:hover{
+  background-color: rgba(255,99,106,1.0);
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: rgba(227,88,94,.9);
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
