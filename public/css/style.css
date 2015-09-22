@@ -8,17 +8,34 @@
 html, body {
   width: 100%;
   margin: 0;
-  font-family: "helvetica neue", helvetica, tahoma;
-  font-weight: 100
+  font-family: "Roboto Condensed", "helvetica neue", helvetica, tahoma;
+  font-weight: 100;
 }
 
 h1{
-  font-family: "helvetica neue", helvetica, tahoma;
+  font-family: "Roboto Condensed", "helvetica neue", helvetica, tahoma;
   font-weight: 100;
 }
 h5{
-  font-family: "helvetica neue", helvetica, tahoma;
+  font-family: "Roboto Condensed", "helvetica neue", helvetica, tahoma;
   font-weight: 100;
+}
+
+a{
+  color: black;
+}
+
+.personal_info {
+    color: white;
+    }
+
+a.personal_info:hover {
+    color: rgba(255, 255, 255, 0.5)
+    }
+
+.no-decoration {
+  text-decoration: underline;
+  color: black;
 }
 
 .headshot img {
